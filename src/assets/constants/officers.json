@@ -1,89 +1,84 @@
 {
     "officers": {
-        "Presiden": {
+        "President": {
             "title": "President",
-            "officerName": "Hussain Alkatheri",
-            "linkedIn": "https://www.linkedin.com/in/hussain-alkatheri/",
-            "pic": "Hussain"
-        },
-        "Vice President": {
-            "title": "Vice President",
             "officerName": "Brett",
             "linkedIn": "https://www.linkedin.com/",
             "pic": "Brett"
         },
-        "Secretary": {
-            "title": "Secretary",
-            "officerName": "Diego Martinez",
-            "linkedIn": "https://www.linkedin.com/in/diemar20/",
-            "pic": "Diego"
-        },
-        "Web Master": {
-            "title": "Web Master",
-            "officerName": "Javier Cardoso",
-            "linkedIn": "https://www.linkedin.com/in/cardoso-javier/",
-            "pic": "Javier"
-        },
-        "Infra. Officer": {
-            "title": "Infra. Officer",
+
+        "Vice President": {
+            "title": "Vice President",
             "officerName": "Rose Ramirez",
-            "linkedIn": "https://www.linkedin.com/in/rose-ramirez/",
+            "linkedIn": "https://www.linkedin.com/",
             "pic": "Rose"
         },
+
+        "Treasurer": {
+            "title": "Treasurer",
+            "officerName": "Christian",
+            "linkedIn": "https://www.linkedin.com/",
+            "pic": "Brett"
+        },
+
+        "Event Coordinator": {
+            "title": "Event Coordinator",
+            "officerName": "Nicole Rodriguez",
+            "linkedIn": "https://www.linkedin.com/in/nicoleceline",
+            "pic": "Nicole"
+        },
+
+        "Event Planner": {
+            "title": "Event Planner",
+            "officerName": "Jeremiah Pitts",
+            "linkedIn": "https://www.linkedin.com/in/jeremiahpitts/",
+            "pic": "Jeremiah"   
+        },
+
+        "Director of Fundraising": {
+            "title": "Director of Fundraising",
+            "officerName": "Rohita Konjeti",
+            "linkedIn": "https://www.linkedin.com/in/rohita-k/",
+            "pic": "Rohita"
+        },
+
+        "CTF Officer": {
+            "title": "CTF Officer",
+            "officerName": "Betim Hodza",
+            "linkedIn": "https://www.linkedin.com/in/betim-hodza-17bb46253/",
+            "pic": "Betim"
+        },
+
         "Graphics Officer": {
             "title": "Graphics Officer",
             "officerName": "Jocelyn Vazquez",
             "linkedIn": "https://www.linkedin.com/in/jocelyn-vazquez",
             "pic": "Jocelyn"
         },
-        "Tech Devt. Officer": {
-            "title": "Tech Devt. Officer",
-            "officerName": "Monika Sutaria",
-            "linkedIn": "https://www.linkedin.com/in/monika-sutaria7/",
-            "pic": "Monika"
-        },
-        "Event Coordinator": {
-            "title": "Event Coordinator",
-            "officerName": "Nicole Rodriguez",
-            "linkedIn": "www.linkedin.com/in/nicoleceline",
-            "pic": "Nicole"
-        },
+
         "Social Media Officer": {
             "title": "Social Media Officer",
             "officerName": "Gino De Luna",
             "linkedIn": "https://www.linkedin.com/in/gino-de-luna/",
             "pic": "Gino"
         },
-        "Event Planner": {
-            "title": "Event Planner",
-            "officerName": "Jeremiah Pitts",
-            "linkedIn": "https://www.linkedin.com/in/jeremiahpitts/",
-            "pic": "Jeremiah"
-        },
-        "CTF Officer": {
-            "title": "CTF Officer",
-            "officerName": "Anne Nguyen",
-            "linkedIn": "https://www.linkedin.com/in/anne-h-nguyen/",
-            "pic": "Anne"
-        },
+
         "Membership Officer": {
             "title": "Membership Officer",
-            "officerName": "Betim Hodza",
-            "linkedIn": "https://www.linkedin.com/in/betim-hodza-17bb46253/",
-            "pic": "Betim"
+            "officerName": "Caitlyn",
+            "linkedIn": "",
+            "pic": "Brett"
         },
-        "Membership Officer 2": {
-            "title": "Membership Officer",
-            "officerName": "Devrat Patel",
-            "linkedIn": "https://www.linkedin.com/in/devratpatel/",
-            "pic": "Devrat"
-        },
-        "Director of Fundraising": {
-            "title": "Director of Fundraising",
-            "officerName": "Diego Vester",
-            "linkedIn": "https://www.linkedin.com/in/diegovester/",
-            "pic": "DiegoVester"
+
+        "Research Officer": {
+            "title": "Research Officer",
+            "officerName": "Araohat",
+            "linkedIn": "",
+            "pic": "Brett"
         }
+        
+        
+        
     }
     
 }

@@ -42,7 +42,7 @@ export function Officers() {
           alt="description"
         />
         <h4>{officer.title}</h4>
-        <h5>{officer.officerName}</h5>
+        <h5>{officer.officerName}</h5>        
         <a href={officer.linkedIn} target="_blank" rel="noreferrer">
           LinkedIn
         </a>
