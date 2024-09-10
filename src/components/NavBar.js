@@ -109,7 +109,7 @@ export function NavBar() {
             <button
               className="vvd"
               onClick={() => {
-                const newTab = window.open("http://tiny.cc/JOINCSEC", "_blank");
+                const newTab = window.open("https://discord.gg/8YuGKecGU4", "_blank");
                 newTab.focus();
               }}
             >

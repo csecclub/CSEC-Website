@@ -32,7 +32,7 @@ export function Banner() {
             {/* Join btn */}
             <button
               onClick={() => {
-                const newTab = window.open("http://tiny.cc/JOINCSEC", "_blank");
+                const newTab = window.open("https://discord.gg/8YuGKecGU4", "_blank");
                 newTab.focus();
               }}
             >
