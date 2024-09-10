@@ -27,6 +27,8 @@ export function Banner() {
               Become part of a community that helps members to navigate through
               diverse cybersecurity paths, make new friends, and gather
               significant experiences.
+
+              For more information join our discord!
             </p>
 
             {/* Join btn */}
@@ -36,7 +38,7 @@ export function Banner() {
                 newTab.focus();
               }}
             >
-              Become a member <ArrowRightCircle size={25} />
+              Join our Discord <ArrowRightCircle size={25} />
             </button>
           </Col>
 
