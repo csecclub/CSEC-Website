@@ -27,7 +27,7 @@ export function Sponsors() {
                 />
               </div>
             </div>
-          </Col>
+          </Col>      
         </Row>
       </Container>
     </section>

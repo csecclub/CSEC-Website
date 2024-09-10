@@ -1,0 +1,116 @@
+.email-sender {
+    position: relative;
+    background-image: url("../../assets/img/Calendar-bg.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 20vh 0;
+  }
+  
+  .email-sender h1 {
+    font-size: var(--font-size-extra-large);
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .email-sender p {
+    color: #f8f8ff;
+    font-size: var(--font-size-small);
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+  }
+  
+  
+  .container-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 3rem;
+    backdrop-filter: blur(5px);
+  }
+  
+  .email-sender form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .email-sender .form-label {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .email-sender .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 20px;
+    padding: 12px 15px;
+  }
+  
+  .email-sender .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+  }
+  
+  .email-sender .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .email-sender .form-check-label {
+    color: #fff;
+  }
+  
+  .email-sender .btn-primary {
+    font-weight: 700;
+    background: linear-gradient(90.21deg, #1e91b2 -5.91%, #a6e2f0 111.58%);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .email-sender .btn-primary:hover {
+    background: linear-gradient(90.21deg, #a6e2f0 -5.91%, #1e91b2 111.58%);
+  }
+  
+  .email-sender .alert {
+    margin-top: 2rem;
+    border-radius: 20px;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .email-sender h1 {
+      font-size: var(--font-size-large);
+    }
+    .container-box {
+      padding: 1.5rem;
+    }
+    .email-sender p {
+      width: 90%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .container-box {
+      padding: 2rem;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .container-box {
+      padding: 2.5rem;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .container-box {
+      padding: 3rem;
+    }
+  }
