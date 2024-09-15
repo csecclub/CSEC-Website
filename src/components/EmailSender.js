@@ -6,9 +6,6 @@ export function EmailSender() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [subscribe, setSubscribe] = useState(false);
-  const [gender, setGender] = useState('');
-  const [workExperience, setWorkExperience] = useState('');
   const [status, setStatus] = useState(null);
 
   const handleSubmit = async (e) => {
