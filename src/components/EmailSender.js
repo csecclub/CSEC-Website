@@ -29,9 +29,6 @@ export function EmailSender() {
         setName('');
         setEmail('');
         setMessage('');
-        setSubscribe(false);
-        setGender('');
-        setWorkExperience('');
       } else {
         throw new Error('Failed to send email');
       }
