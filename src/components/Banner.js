@@ -3,8 +3,21 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import TypeIt from "typeit-react";
 import headerImg from "../assets/img/michi.png";
 import "./styles/Banner.css";
+import meowSound from "../assets/audio/meow.mp3"
+import React from "react";
 
-export function Banner() {
+export function Banner() {          
+  // Create a ref for the audio element
+  const audioRef = React.useRef(null);
+
+  // Function to play meow sound
+  const playMeow = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
+  
   return (
     /* Banner section */
     <section className="banner" id="home">
@@ -45,12 +58,16 @@ export function Banner() {
           {/* Image column */}
           <Col xs={12} md={6} xl={5}>
             {/* Image */}
-            <div>
+            <div onClick={playMeow} style={{ cursor: 'pointer' }}>
               <img src={headerImg} alt="Header Img" />
             </div>
           </Col>
         </Row>
       </Container>
+
+      {/* Audio element */}
+      <audio ref={audioRef} src={meowSound} preload="auto" />
+
       <div id="officers"></div>
     </section>
   );

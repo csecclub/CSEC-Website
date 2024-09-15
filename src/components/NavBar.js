@@ -86,7 +86,7 @@ export function NavBar() {
             <Nav.Link
               href="#email-sender"
               className={
-                activeLink === "email-sender" ? "active navbar-link" : "navbar-link"
+                activeLink === "email-sender  " ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
