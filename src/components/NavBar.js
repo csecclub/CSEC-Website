@@ -84,13 +84,13 @@ export function NavBar() {
               Activities
             </Nav.Link>
             <Nav.Link
-              href="#calendar"
+              href="#email-sender"
               className={
-                activeLink === "calendar" ? "active navbar-link" : "navbar-link"
+                activeLink === "email-sender" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              Calendar
+              Email
             </Nav.Link>
             <Nav.Link
               href="#sponsors"
