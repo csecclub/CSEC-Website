@@ -21,8 +21,8 @@
             "pic": "Brett"
         },
 
-        "Event Coordinator": {
-            "title": "Event Coordinator",
+        "Secretary": {
+            "title": "Secretary",
             "officerName": "Nicole Rodriguez",
             "linkedIn": "https://www.linkedin.com/in/nicoleceline",
             "pic": "Nicole"
@@ -49,6 +49,20 @@
             "pic": "Betim"
         },
 
+        "JR Web Dev": {
+            "title": "JR Web Dev",
+            "officerName": "Josh Pettengill",
+            "linkedIn": "https://www.linkedin.com/",
+            "pic": "Brett"
+        },
+
+        "JR Web Dev": {
+            "title": "JR Web Dev",
+            "officerName": "Tejaswi Kulkarni",
+            "linkedIn": "https://www.linkedin.com/",
+            "pic": "Brett"
+        },
+
         "Graphics Officer": {
             "title": "Graphics Officer",
             "officerName": "Jocelyn Vazquez",
@@ -67,6 +81,13 @@
             "title": "Membership Officer",
             "officerName": "Caitlin Hartman",
             "linkedIn": "https://www.linkedin.com/in/caitlinhartman22",
+            "pic": "Brett"
+        },
+
+        "Recuritment Officer": {
+            "title": "Recuritment Officer",
+            "officerName": "Safal Hartman",
+            "linkedIn": "https://www.linkedin.com",
             "pic": "Brett"
         },
 
